@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/timepicker"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <cn.evendy.library.widget.pickerview.lib.WheelView
+        android:id="@+id/year"
+        app:labelTextColor="#eeeeee"
+        app:textColorOut="#999999"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        app:labelTextSize="13sp"
+        app:textColorCenter="#ff3030"
+        app:textSize="20sp" />
+
+    <cn.evendy.library.widget.pickerview.lib.WheelView
+        android:id="@+id/month"
+        labelTextColor="#eeeeee"
+        textColorOut="#999999"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.1"
+        app:labelTextSize="13sp"
+        app:textColorCenter="#ff3030"
+        app:textSize="20sp" />
+
+    <cn.evendy.library.widget.pickerview.lib.WheelView
+        android:id="@+id/day"
+        labelTextColor="#eeeeee"
+        textColorOut="#999999"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.1"
+        app:labelTextSize="13sp"
+        app:textColorCenter="#ff3030"
+        app:textSize="20sp" />
+
+    <cn.evendy.library.widget.pickerview.lib.WheelView
+        android:id="@+id/hour"
+        labelTextColor="#eeeeee"
+        textColorOut="#999999"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.1"
+        app:labelTextSize="13sp"
+        app:textColorCenter="#ff3030"
+        app:textSize="20sp" />
+
+    <cn.evendy.library.widget.pickerview.lib.WheelView
+        android:id="@+id/min"
+        labelTextColor="#eeeeee"
+        textColorOut="#999999"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.1"
+        app:labelTextSize="13sp"
+        app:textColorCenter="#ff3030"
+        app:textSize="20sp" />
+</LinearLayout>

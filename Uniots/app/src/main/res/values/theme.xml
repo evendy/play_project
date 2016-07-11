@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme. -->s
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="GreenTheme" parent="AppTheme">
+        <item name="colorPrimaryDark">@color/common_green</item>
+    </style>
+
+    <style name="DarkTheme" parent="AppTheme">
+        <item name="colorPrimaryDark">@color/common_dark</item>
+    </style>
+
+    <style name="YellowTheme" parent="AppTheme">
+        <item name="colorPrimaryDark">@color/common_yellow</item>
+    </style>
+
+    <style name="right_to_left_transition_theme" mce_bogus="1" parent="@style/AppTheme">
+        <item name="android:windowAnimationStyle">@style/right_to_left_transition</item>
+    </style>
+</resources>

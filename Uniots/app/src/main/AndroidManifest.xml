@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cn.evendy.uniots">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/app_icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".ui.activity.GuideActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ui.activity.LoginActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".ui.activity.MainActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".ui.activity.ForgetPwdActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.RegisterActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".ui.activity.InitAccountActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.InitBornActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.InitGenderActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.InitHeightActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.InitSportActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.InitWeightActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".ui.activity.NotifyResultActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.SettingsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.SuggestionActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.MyInfoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.WeightActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.SleepActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.StepActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.SportActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/right_to_left_transition_theme" />
+        <activity
+            android:name=".ui.activity.ShareActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.TopListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.FriendActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.AlarmActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.TimeZoneActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.SetAlarmActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.yongchun.library.view.ImageSelectorActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.yongchun.library.view.ImagePreviewActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.yongchun.library.view.ImageCropActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".TestActivity"
+            android:screenOrientation="portrait"></activity>
+    </application>
+
+</manifest>

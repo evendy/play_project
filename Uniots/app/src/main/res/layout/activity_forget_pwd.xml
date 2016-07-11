@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_light_background"
+    android:fitsSystemWindows="true"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/common_dark_toolbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#ffffff"
+        android:orientation="vertical">
+
+        <View style="@style/horizontal_line" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/text_inputBox_height"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="90dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:padding="10dp"
+                android:text="@string/verify"
+                android:textColor="@color/verify_title"
+                android:textSize="@dimen/login_inputBox_textSize" />
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@null"
+                android:hint="@string/input_verifycode"
+                android:textColor="@color/input_text"
+                android:textColorHint="@color/input_hint"
+                android:textSize="@dimen/login_inputBox_textSize" />
+
+            <TextView
+                android:id="@+id/send_verity"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/findpassword_verify_btn"
+                android:gravity="center"
+                android:text="@string/send_verifycode"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/login_inputBox_textSize" />
+        </LinearLayout>
+
+        <View
+            style="@style/horizontal_line"
+            android:layout_marginLeft="10dp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/text_inputBox_height"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:padding="10dp"
+                android:text="@string/new_password"
+                android:textColor="@color/verify_title"
+                android:textSize="@dimen/login_inputBox_textSize" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:hint="@string/input_new_password"
+                android:inputType="textPassword"
+                android:textColor="@color/input_text"
+                android:textColorHint="@color/input_hint"
+                android:textSize="@dimen/login_inputBox_textSize" />
+        </LinearLayout>
+
+        <View
+            style="@style/horizontal_line"
+            android:layout_marginLeft="10dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/text_inputBox_height"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="90dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:padding="10dp"
+                android:text="@string/confirm_password"
+                android:textColor="@color/verify_title"
+                android:textSize="@dimen/login_inputBox_textSize" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:hint="@string/input_password_again"
+                android:inputType="textPassword"
+                android:textColor="@color/input_text"
+                android:textColorHint="@color/input_hint"
+                android:textSize="@dimen/login_inputBox_textSize" />
+        </LinearLayout>
+
+        <View style="@style/horizontal_line" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/modify_password"
+        android:layout_width="300dp"
+        android:layout_height="@dimen/text_inputBox_height"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/register_btn"
+        android:gravity="center"
+        android:text="@string/confirm_modify_password"
+        android:textColor="@color/loginOtherText"
+        android:textSize="@dimen/login_inputBox_textSize" />
+</LinearLayout>

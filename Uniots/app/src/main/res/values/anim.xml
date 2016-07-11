@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AnimationFade">
+        <item name="android:windowEnterAnimation">@anim/in_popup</item>
+        <item name="android:windowExitAnimation">@anim/out_popup</item>
+    </style>
+
+    <style name="right_to_left_transition" mce_bogus="1" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/activity_anim_right_to_left</item>
+        <item name="android:activityCloseEnterAnimation">@anim/activity_anim_left_to_right</item>
+        <item name="android:activityOpenExitAnimation">@anim/activity_anim_right_to_left</item>
+    </style>
+</resources>

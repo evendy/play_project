@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_light_background"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/common_dark_toolbar" />
+
+    <TextView
+        style="@style/menu_title_style"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="@string/have_suggestion" />
+
+    <EditText
+        style="@style/input_info_style"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:hint="@string/your_topic" />
+
+    <EditText
+        style="@style/input_info_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:gravity="left"
+        android:hint="@string/your_suggestion"
+        android:inputType="textMultiLine"
+        android:minLines="8"
+        android:padding="10dp" />
+
+    <TextView
+        style="@style/menu_title_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/suggestion_back" />
+
+    <TextView
+        android:id="@+id/submit"
+        android:layout_width="250dp"
+        android:layout_height="@dimen/text_inputBox_height"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/submit_btn"
+        android:enabled="false"
+        android:gravity="center"
+        android:text="@string/submit"
+        android:textColor="@color/loginOtherText"
+        android:textSize="@dimen/login_inputBox_textSize" />
+</LinearLayout>

@@ -1,0 +1,198 @@
+<resources>
+
+    <style name="input_info_style">
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_height">@dimen/text_inputBox_height</item>
+        <item name="android:background">@drawable/text_inputbox</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:lines">1</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:textColor">@color/input_text</item>
+        <item name="android:textColorHint">@color/input_hint</item>
+        <item name="android:textSize">@dimen/login_inputBox_textSize</item>
+    </style>
+
+    <style name="menu_btn">
+        <item name="android:layout_width">260dp</item>
+        <item name="android:layout_height">@dimen/menu_btn_height</item>
+        <item name="android:background">@drawable/white_corner_btn</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#474747</item>
+        <item name="android:textSize">@dimen/menu_btn_textSize</item>
+    </style>
+
+    <style name="next" parent="menu_btn">
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginBottom">@dimen/view_bottom_btn_margin_bottom</item>
+        <item name="android:text">@string/next</item>
+    </style>
+
+    <style name="menu_btn_cancel" parent="menu_btn">
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:text">@string/cancel</item>
+    </style>
+
+    <style name="menu_btn_save" parent="menu_btn">
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:text">@string/save</item>
+    </style>
+
+    <style name="modify_container">
+        <item name="android:layout_width">260dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginBottom">@dimen/view_bottom_btn_margin_bottom</item>
+        <item name="android:visibility">gone</item>
+    </style>
+
+    <style name="init_info_one">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">30dp</item>
+        <item name="android:text">@string/init_your_info_part_one</item>
+        <item name="android:textColor">@color/input_info_text</item>
+        <item name="android:textSize">19sp</item>
+    </style>
+
+    <style name="init_info_two" parent="init_info_one">
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:text">@string/init_your_info_part_two</item>
+    </style>
+
+    <style name="init_info_suggestion" parent="init_info_two">
+        <item name="android:textSize">14dp</item>
+        <item name="android:text">@string/init_your_info_part_suggestion</item>
+    </style>
+
+    <style name="init_info_unit" parent="init_info_suggestion">
+        <item name="android:layout_marginTop">8dp</item>
+    </style>
+
+    <style name="horizontal_line">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/divider</item>
+    </style>
+
+    <style name="vertical_line">
+        <item name="android:layout_width">0.5dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/divider</item>
+    </style>
+
+    <style name="menu_title_style">
+        <item name="android:gravity">bottom</item>
+        <item name="android:layout_height">45dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:textColor">@color/common_gray_text</item>
+        <item name="android:textSize">@dimen/mine_menu_little_textSize</item>
+    </style>
+
+    <style name="menu_item_style">
+        <item name="android:drawablePadding">10dp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@color/common_dark_text</item>
+        <item name="android:textSize">@dimen/mine_menu_normal_textSize</item>
+    </style>
+
+    <style name="list_item_simple">
+        <item name="android:background">@color/common_light_background</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/menu_height</item>
+        <item name="android:textColor">@color/dark_red_text</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">30dp</item>
+        <item name="android:paddingRight">30dp</item>
+        <item name="android:textSize">@dimen/mine_menu_normal_textSize</item>
+    </style>
+
+    <style name="menu_item_arrow_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:src">@drawable/arrow_right</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="menu_item_text_arrow_style" parent="@style/menu_item_text_style">
+        <item name="android:drawableRight">@drawable/arrow_right</item>
+    </style>
+
+    <style name="menu_item_text_style">
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center_vertical|right</item>
+        <item name="android:textColor">@color/common_gray_text</item>
+        <item name="android:textSize">@dimen/mine_menu_little_textSize</item>
+    </style>
+
+    <style name="menu_item_line">
+        <item name="android:background">@drawable/menu_background</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/menu_height</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="dialog_btn">
+        <item name="android:background">@drawable/dialog_btn</item>
+        <item name="android:textColor">@color/common_dark_text</item>
+        <item name="android:layout_width">60dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="dialog_title">
+        <item name="android:textColor">@color/common_dark_text</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="play_item_container">
+        <item name="android:background">@drawable/white_gray_btn</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="play_item_icon">
+        <item name="android:layout_width">40dp</item>
+        <item name="android:layout_height">40dp</item>
+    </style>
+
+    <style name="play_item_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:textColor">@color/common_dark_text</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="play_item_status">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:textColor">@color/common_gray_text</item>
+        <item name="android:textSize">11sp</item>
+        <item name="android:text">@string/open_no</item>
+    </style>
+
+    <style name="ic_gender_size">
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">260dp</item>
+    </style>
+
+</resources>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_corner"
+    android:orientation="vertical">
+
+    <!--checking update-->
+    <LinearLayout
+        android:id="@+id/dialog_check_update"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:text="@string/checking_newest"
+            android:textColor="@color/common_dark_text"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <!--newest version-->
+    <TextView
+        android:id="@+id/dialog_newest"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:text="@string/already_newest"
+        android:textColor="@color/common_dark_text"
+        android:textSize="18sp"
+        android:visibility="gone" />
+
+    <!--online update-->
+    <LinearLayout
+        android:id="@+id/dialog_updating_app"
+        android:layout_width="300dp"
+        android:layout_height="135dp"
+        android:orientation="vertical"
+        android:padding="15dp"
+        android:visibility="gone">
+
+        <TextView
+            style="@style/dialog_title"
+            android:text="@string/online_update" />
+
+        <com.daimajia.numberprogressbar.NumberProgressBar
+            android:id="@+id/number_progress_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            app:max="100"
+            app:progress="0" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/dialog_cancel"
+                style="@style/dialog_btn"
+                android:layout_marginRight="10dp"
+                android:text="@string/cancel" />
+
+            <TextView
+                android:id="@+id/dialog_hide"
+                style="@style/dialog_btn"
+                android:text="@string/hide" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!--update error-->
+    <LinearLayout
+        android:id="@+id/dialog_update_error"
+        android:layout_width="300dp"
+        android:layout_height="135dp"
+        android:orientation="vertical"
+        android:padding="15dp"
+        android:visibility="gone">
+
+        <TextView
+            style="@style/dialog_title"
+            android:text="@string/update_error" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical"
+            android:text="@string/cannot_connect_internet"
+            android:textSize="15sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/dialog_cancel_one"
+                style="@style/dialog_btn"
+                android:layout_marginRight="10dp"
+                android:text="@string/cancel" />
+
+            <TextView
+                android:id="@+id/dialog_go_set"
+                style="@style/dialog_btn"
+                android:text="@string/go_setting" />
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

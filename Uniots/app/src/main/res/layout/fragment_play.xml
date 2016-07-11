@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_light_background"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/common_dark_toolbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/ic_notify_incoming"
+                style="@style/play_item_container">
+
+                <ImageView
+                    style="@style/play_item_icon"
+                    android:src="@drawable/ic_incoming" />
+
+                <TextView
+                    style="@style/play_item_text"
+                    android:text="@string/notify_incoming" />
+
+                <TextView
+                    android:id="@+id/status_notify_incoming"
+                    style="@style/play_item_status" />
+            </LinearLayout>
+
+            <View style="@style/vertical_line" />
+
+            <LinearLayout
+                android:id="@+id/ic_notify_alarm"
+                style="@style/play_item_container">
+
+                <ImageView
+                    style="@style/play_item_icon"
+                    android:src="@drawable/ic_alarm" />
+
+                <TextView
+                    style="@style/play_item_text"
+                    android:text="@string/notify_alarm" />
+
+                <TextView
+                    android:id="@+id/status_notify_alarm"
+                    style="@style/play_item_status" />
+            </LinearLayout>
+
+            <View style="@style/vertical_line" />
+
+            <LinearLayout
+                android:id="@+id/ic_notify_sms"
+                style="@style/play_item_container">
+
+                <ImageView
+                    style="@style/play_item_icon"
+                    android:src="@drawable/ic_sms" />
+
+                <TextView
+                    style="@style/play_item_text"
+                    android:text="@string/notify_sms" />
+
+                <TextView
+                    android:id="@+id/status_notify_sms"
+                    style="@style/play_item_status" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View style="@style/horizontal_line" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/ic_notify_app"
+                style="@style/play_item_container">
+
+                <ImageView
+                    style="@style/play_item_icon"
+                    android:src="@drawable/ic_app" />
+
+                <TextView
+                    style="@style/play_item_text"
+                    android:text="@string/notify_app" />
+
+                <TextView
+                    android:id="@+id/status_notify_app"
+                    style="@style/play_item_status" />
+            </LinearLayout>
+
+            <View style="@style/vertical_line" />
+
+            <LinearLayout
+                android:id="@+id/ic_notify_timezone"
+                style="@style/play_item_container">
+
+                <ImageView
+                    style="@style/play_item_icon"
+                    android:src="@drawable/ic_timezone" />
+
+                <TextView
+                    style="@style/play_item_text"
+                    android:text="@string/notify_timezone" />
+
+                <TextView
+                    android:id="@+id/status_notify_timezone"
+                    style="@style/play_item_status" />
+            </LinearLayout>
+
+
+            <View style="@style/vertical_line" />
+
+            <LinearLayout
+                android:id="@+id/ic_notify_broadcast"
+                style="@style/play_item_container">
+
+                <ImageView
+                    style="@style/play_item_icon"
+                    android:src="@drawable/ic_broadcast" />
+
+                <TextView
+                    style="@style/play_item_text"
+                    android:text="@string/broadcast_id" />
+
+                <TextView
+                    android:id="@+id/status_notify_broadcast"
+                    style="@style/play_item_status" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View style="@style/horizontal_line" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/menu_title_style"
+            android:text="@string/third_party_interface" />
+
+        <View style="@style/horizontal_line" />
+
+        <LinearLayout
+            android:id="@+id/part_wechat"
+            style="@style/menu_item_line">
+
+            <TextView
+                style="@style/menu_item_style"
+                android:drawableLeft="@drawable/ico_wechat"
+                android:text="@string/wechat" />
+
+            <ImageView style="@style/menu_item_arrow_style" />
+        </LinearLayout>
+
+        <View style="@style/horizontal_line" />
+
+        <LinearLayout
+            android:id="@+id/part_qq"
+            style="@style/menu_item_line">
+
+            <TextView
+                style="@style/menu_item_style"
+                android:drawableLeft="@drawable/ico_qq"
+                android:text="@string/qq" />
+
+            <ImageView style="@style/menu_item_arrow_style" />
+        </LinearLayout>
+
+        <View style="@style/horizontal_line" />
+    </LinearLayout>
+
+
+</LinearLayout>

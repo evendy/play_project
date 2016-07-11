@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_light_background"
+    android:fitsSystemWindows="true"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/common_dark_toolbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView style="@style/init_info_one" />
+
+        <TextView style="@style/init_info_two" />
+
+        <ImageView
+            android:id="@+id/gender_icon"
+            style="@style/ic_gender_size"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/male" />
+
+        <TextView
+            style="@style/init_info_unit"
+            android:text="@string/height_cm" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/next_step"
+        style="@style/next"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:id="@+id/modify_container"
+        style="@style/modify_container">
+
+        <TextView
+            android:id="@+id/btn_cancel"
+            style="@style/menu_btn_cancel" />
+
+        <TextView
+            android:id="@+id/btn_save"
+            style="@style/menu_btn_save" />
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.github.glomadrian.dashedcircularprogress.DashedCircularProgress xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="220dp"
+    android:layout_height="225dp"
+    android:layout_centerInParent="true"
+    android:layout_margin="30dp"
+    app:base_color="@color/dashboard_base_color"
+    app:duration="1000"
+    app:external_color="@color/dashboard_base_color"
+    app:max_progress="100"
+    app:min_progress="0"
+    app:progress_color="@color/dashboard_progress_color"
+    app:progress_icon="@drawable/dashboard_icon">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1th"
+            android:textColor="@color/common_white_text"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="2563步"
+            android:textColor="@color/common_white_text"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="2.04千米/150千卡"
+            android:textColor="@color/common_white_text"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="正在连接..."
+            android:textColor="@color/common_white_text"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+</com.github.glomadrian.dashedcircularprogress.DashedCircularProgress>

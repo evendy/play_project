@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="common_green">#11BDA9</color>
+    <color name="common_yellow">#FFAA01</color>
+    <color name="common_dark">#474B63</color>
+    <color name="common_dark_title">#dddddd</color>
+
+    <color name="common_light_background">#F8F8F8</color>
+
+    <color name="loginInputBoxBg">#5A5D73</color>
+    <color name="loginInputBoxText">#83859F</color>
+    <color name="loginOtherText">#dddddd</color>
+    <color name="loginBtn_normal">#FD4451</color>
+    <color name="loginBtn_pressed">#FF2431</color>
+
+    <color name="input_text">#474B63</color>
+    <color name="input_hint">#E0E0E0</color>
+    <color name="input_corner">#E0E0E0</color>
+    <color name="input_info_text">#909090</color>
+
+    <color name="register_input_background">#ffffff</color>
+    <color name="registerBtn_normal">#04B954</color>
+    <color name="registerBtn_pressed">#00B350</color>
+
+    <color name="verify_enable">#04B954</color>
+    <color name="verify_unable">#DBDBDB</color>
+
+    <color name="find_password_line">#EAEAEA</color>
+
+    <color name="divider">#DDDDDD</color>
+
+    <color name="gender_selected">#666666</color>
+    <color name="gender_un_selected">#D3D3D3</color>
+
+    <color name="menu_selected">#10ABC7</color>
+    <color name="menu_un_selected">#77797D</color>
+
+    <color name="common_dark_text">#555555</color>
+    <color name="common_white_text">#eeeeee</color>
+    <color name="common_gray_text">#999999</color>
+
+    <color name="verify_title">#555555</color>
+
+    <drawable name="menu_normal">#F8F8F8</drawable>
+    <drawable name="menu_pressed">#e8e8e8</drawable>
+
+    <drawable name="dialog_normal">#ffffff</drawable>
+    <drawable name="dialog_pressed">#e8e8e8</drawable>
+
+    <color name="white_btn_normal">#ffffff</color>
+    <color name="white_btn_pressed">#e8e8e8</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="half_transparent">#30000000</color>
+
+    <color name="simple_blue">#9696B8</color>
+    <color name="deep_blue">#6E6C9D</color>
+    <color name="rectangle_yellow">#FEA128</color>
+
+    <color name="dashboard_progress_color">#eeeeee</color>
+    <color name="dashboard_base_color">#6ED6CA</color>
+    <color name="dashboard_title_color">#6ED6CA</color>
+
+    <color name="sleep_progress_color">#FA757E</color>
+    <color name="sleep_hint_color">#FEB6BB</color>
+    <color name="sleep_circle_color">#ECECEB</color>
+
+
+
+</resources>

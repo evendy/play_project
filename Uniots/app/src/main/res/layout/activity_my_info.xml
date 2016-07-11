@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_light_background"
+    android:fitsSystemWindows="true"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/common_dark_toolbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/common_dark"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingBottom="30dp">
+
+        <RelativeLayout
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="15dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/avatar"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:src="@drawable/default_userinfo" />
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:clickable="false"
+                android:src="@drawable/person_info_camera" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/my_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/evendy"
+            android:textColor="@color/common_white_text"
+            android:textSize="22sp" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <LinearLayout
+                android:id="@+id/menu_neck_name"
+                style="@style/menu_item_line">
+
+                <TextView
+                    style="@style/menu_item_style"
+                    android:text="@string/nickname" />
+
+                <TextView
+                    android:id="@+id/text_neck_name"
+                    style="@style/menu_item_text_style"
+                    android:text="@string/evendy" />
+            </LinearLayout>
+
+            <View style="@style/horizontal_line" />
+
+            <LinearLayout
+                android:id="@+id/menu_gender"
+                style="@style/menu_item_line">
+
+                <TextView
+                    style="@style/menu_item_style"
+                    android:text="@string/gender" />
+
+                <TextView
+                    android:id="@+id/text_gender"
+                    style="@style/menu_item_text_arrow_style"
+                    android:text="@string/male" />
+            </LinearLayout>
+
+            <View style="@style/horizontal_line" />
+
+            <LinearLayout
+                android:id="@+id/menu_born"
+                style="@style/menu_item_line">
+
+                <TextView
+                    style="@style/menu_item_style"
+                    android:text="@string/born_year_month" />
+
+                <TextView
+                    android:id="@+id/text_born"
+                    style="@style/menu_item_text_arrow_style"
+                    android:text="1990年1月" />
+            </LinearLayout>
+
+            <View style="@style/horizontal_line" />
+
+            <LinearLayout
+                android:id="@+id/menu_weight"
+                style="@style/menu_item_line">
+
+                <TextView
+                    style="@style/menu_item_style"
+                    android:text="@string/weight" />
+
+                <TextView
+                    android:id="@+id/text_weight"
+                    style="@style/menu_item_text_arrow_style"
+                    android:text="60kg" />
+            </LinearLayout>
+
+            <View style="@style/horizontal_line" />
+
+            <LinearLayout
+                android:id="@+id/menu_height"
+                style="@style/menu_item_line">
+
+                <TextView
+                    style="@style/menu_item_style"
+                    android:text="@string/height" />
+
+                <TextView
+                    android:id="@+id/text_height"
+                    style="@style/menu_item_text_arrow_style"
+                    android:text="175cm" />
+            </LinearLayout>
+
+            <View style="@style/horizontal_line" />
+
+            <TextView
+                android:id="@+id/quit"
+                style="@style/menu_btn"
+                android:layout_marginBottom="40dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/warning_btn"
+                android:text="@string/quit_login"
+                android:textColor="@color/common_white_text" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="repeat_type">
+        <item>@string/notify_one</item>
+        <item>@string/every_day</item>
+        <item>@string/monday_friday</item>
+        <item>@string/workday</item>
+    </array>
+</resources>

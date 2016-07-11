@@ -1,0 +1,198 @@
+<resources>
+    <string name="evendy">evendy</string>
+    <string name="app_name">Uniots</string>
+    <string name="exit_toast">再次点击退出程序</string>
+    <string name="quit_login">退出登录</string>
+    <string name="to_uniots">To Uniots sport</string>
+
+    <string name="account">手机或邮箱</string>
+    <string name="password">密码</string>
+    <string name="register">注册</string>
+    <string name="forgetPwd">忘记密码</string>
+    <string name="login">登录</string>
+    <string name="otherLogin">其他方式登录</string>
+
+    <string name="verify">验证码</string>
+    <string name="send_verifycode">发送验证码</string>
+    <string name="input_verifycode">请输入验证码</string>
+    <string name="verifycode_error">验证码错误或已过期</string>
+    <string name="sent_veritycode">验证码已经发送,请及时输入</string>
+
+    <string name="register_success">恭喜您注册成功</string>
+
+    <string name="find_password">找回密码</string>
+    <string name="new_password">新密码</string>
+    <string name="input_new_password">请输入密码,至少6个字符</string>
+    <string name="confirm_password">确认密码</string>
+    <string name="input_password_again">再次输入密码</string>
+    <string name="confirm_modify_password">确认修改</string>
+
+    <string name="modify_password_success">修改密码成功,请重新登录</string>
+
+    <string name="next">下一步</string>
+
+    <string name="info">个人信息</string>
+    <string name="nickname">昵称</string>
+    <string name="gender">性别</string>
+    <string name="weight">体重</string>
+    <string name="height">身高</string>
+    <string name="born">出生</string>
+    <string name="sport">运动</string>
+
+    <string name="born_year_month">出生年月</string>
+
+    <string name="input_nickname">请输入昵称</string>
+    <string name="init_your_info_part_one">告诉我们你的信息</string>
+    <string name="init_your_info_part_two">让您的运动数据更精确</string>
+    <string name="init_your_info_part_suggestion">根据世界卫生组织的建议,你每天需要进行中等强度的运动40分钟,相当于快走8000步</string>
+    <string name="male">男</string>
+    <string name="female">女</string>
+    <string name="weight_kg">体重(kg)</string>
+    <string name="height_cm">身高(cm)</string>
+    <string name="born_year">出生(年)</string>
+    <string name="sport_step">运动(步)</string>
+
+
+    <string name="current">当前</string>
+    <string name="discovery">发现</string>
+    <string name="smart_play">智玩</string>
+    <string name="mine">我</string>
+
+    <string name="mine_title">我的</string>
+    <string name="today">今天</string>
+    <string name="yesterday">昨天</string>
+    <string name="today_activity">今天-活动</string>
+
+    <string name="connecting">正在连接...</string>
+    <string name="sleep">睡眠</string>
+    <string name="deep_sleep">深睡</string>
+    <string name="walk">步行</string>
+
+    <string name="km_kcal" formatted="false">%s千米/%s千卡</string>
+    <string name="hour_en">H</string>
+    <string name="goal">GOAL</string>
+    <string name="top_list">排行榜</string>
+
+    <string name="step">步数</string>
+    <string name="calorie">卡路里</string>
+    <string name="distance">距离</string>
+    <string name="used_time">用时</string>
+    <string name="km">千米</string>
+    <string name="kg">kg</string>
+    <string name="kcal">千卡</string>
+    <string name="time">小时</string>
+
+    <string name="sleep_time">睡眠时长</string>
+    <string name="deepness">深度</string>
+    <string name="fall_asleep_time">入睡时间</string>
+    <string name="deep_sleep_time">深睡时长</string>
+    <string name="simple_time">浅睡时长</string>
+
+    <string name="status_deep_sleep">深睡眠</string>
+    <string name="status_simple_sleep">浅睡眠</string>
+    <string name="status_wake">醒着</string>
+
+
+    <string name="now_weight">当前体重</string>
+    <string name="fat_mass">脂肪量</string>
+    <string name="bmi">BMI</string>
+    <string name="than_last_time">比上次</string>
+    <string name="status_thin">偏瘦</string>
+    <string name="status_normal">标准</string>
+    <string name="status_fat">偏胖</string>
+    <string name="status_heavy_fat">肥胖</string>
+
+    <string name="daily_steps">日均步数</string>
+    <string name="total_mileage">总公里数</string>
+    <string name="standard_number_of_days">达标天数</string>
+    <string name="my_hardware">我的设备</string>
+    <string name="my_goal">我的目标</string>
+    <string name="goal_sport">运动目标</string>
+    <string name="goal_weight">体重目标</string>
+
+    <string name="notify_status">状态提醒</string>
+    <string name="notify_sport">运动成绩提醒</string>
+    <string name="notify_sleep">睡眠结果提醒</string>
+    <string name="notify_sport_open">开启运动成绩提醒</string>
+    <string name="notify_sport_report">每晚9:30提醒我查看今天的运动情况</string>
+    <string name="notify_sleep_open">开启睡眠结果提醒</string>
+    <string name="notify_sleep_report">每天上午提醒我昨晚睡眠情况</string>
+
+    <string name="more">更多</string>
+    <string name="setting">设置</string>
+    <string name="friends">亲友</string>
+    <string name="top">排行</string>
+
+    <string name="check_newest">检查更新</string>
+    <string name="use_help">使用帮助</string>
+    <string name="suggestion">意见反馈</string>
+    <string name="about">关于</string>
+
+    <string name="checking_newest">正在检查更新......</string>
+    <string name="already_newest">已是最新版本</string>
+
+    <string name="cancel">取消</string>
+    <string name="sure">确定</string>
+    <string name="save">保存</string>
+
+    <string name="online_update">联网升级</string>
+
+    <string name="hide">隐藏</string>
+    <string name="update_error">升级失败</string>
+    <string name="cannot_connect_internet">无法连接网络,请检查网络设置</string>
+    <string name="go_setting">去设置</string>
+
+    <string name="un_set">未设置</string>
+
+    <string name="have_suggestion">您有什么问题或建议想对我们说?</string>
+    <string name="your_topic">您的主题:</string>
+    <string name="your_suggestion">您的宝贵意见,就是我们进步的源泉</string>
+    <string name="suggestion_back">请详细描述您遇到的问题,有助于我们快速定位并解决问题,或者留下您宝贵的建议或者意见,我们会认真进行评估!</string>
+    <string name="submit">提交</string>
+
+    <string name="my_ranking">我的名次</string>
+    <string name="current_day">当天</string>
+    <string name="day">日</string>
+    <string name="month">月</string>
+    <string name="week">周</string>
+
+    <string name="notify_incoming">来电提醒</string>
+    <string name="notify_alarm">手机闹钟</string>
+    <string name="notify_sms">短信提醒</string>
+    <string name="notify_app">APP通知提醒</string>
+    <string name="notify_timezone">时区</string>
+    <string name="broadcast_id">身份广播</string>
+    <string name="open_no">未开启</string>
+    <string name="open_yes">已开启</string>
+
+    <string name="third_party_interface">第三方接入</string>
+    <string name="wechat">微信</string>
+    <string name="qq">QQ</string>
+
+    <string name="notify_incoming_open">开启来电提醒</string>
+    <string name="notify_incoming_report">手机来电时,手表会振动提醒</string>
+    <string name="notify_sms_open">开启短信提醒</string>
+    <string name="notify_sms_report">手机收到短信时,手表会振动提醒</string>
+    <string name="notify_broadcast_open">开启身份提醒</string>
+    <string name="notify_broadcast_report">开启后可以让周围的智能设备检测到你</string>
+    <string name="notify_app_open">开启APP通知提醒</string>
+    <string name="notify_app_report">手机需一直连接手表,请保持蓝牙开启</string>
+
+    <string name="chose_city">所选城市</string>
+
+    <string name="set_alarm">设置闹钟</string>
+    <string name="workday">工作日</string>
+    <string name="notify_one">只提醒一次</string>
+    <string name="every_day">每天</string>
+    <string name="monday_friday">每周一到周五</string>
+    <string name="hour">时</string>
+    <string name="second">分</string>
+    <string name="repeat">重复</string>
+
+    <string name="ranking">th</string>
+    <string name="share">分享</string>
+    <string name="analyze_data">分析数据</string>
+
+    <string name="ringtone">铃声</string>
+    <string name="default_">默认</string>
+</resources>

@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="com.yongchun.imageselector-1.1.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.yongchun/com.yongchun.imageselector/1.1.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.yongchun/com.yongchun.imageselector/1.1.0/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.yongchun/com.yongchun.imageselector/1.1.0/f1d4ea6c14a8d919bc921821949965a71bc2bba9/com.yongchun.imageselector-1.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_light_background"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/common_dark_toolbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/common_dark"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:src="@drawable/ic_arrow_right"
+            android:visibility="gone" />
+
+        <cn.evendy.library.widget.pickerview.TimePickerView
+            android:id="@+id/time_picker"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:paddingRight="10dp"
+            app:indicator_type="triangle"
+            app:picker_type="hour_min" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:src="@drawable/ic_arrow_left"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <TextView
+        style="@style/menu_title_style"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:text="@string/repeat"
+        android:textColor="@color/common_dark_text"
+        android:textSize="17sp" />
+
+    <View style="@style/horizontal_line" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/list_repeat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <View style="@style/horizontal_line" />
+
+    <LinearLayout
+        android:id="@+id/alarm_ringtone_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp">
+
+        <TextView
+            style="@style/menu_title_style"
+            android:layout_width="60dp"
+            android:text="@string/ringtone"
+            android:textColor="@color/common_dark_text"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/alarm_ringtone"
+            style="@style/menu_title_style"
+            android:layout_width="match_parent"
+            android:text="@string/default_"
+            android:textSize="@dimen/mine_little_text" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="wheelview">
+        <attr name="gravity">
+            <enum name="center" value="17" />
+            <enum name="left" value="3" />
+            <enum name="right" value="5" />
+        </attr>
+        <attr name="textSize" format="dimension" />
+        <attr name="textColorOut" format="color" />
+        <attr name="textColorCenter" format="color" />
+        <attr name="dividerColor" format="color" />
+
+        <attr name="labelTextSize" format="dimension" />
+        <attr name="labelTextColor" format="color" />
+        <attr name="items_visible" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="TimePickerView">
+        <attr name="color_normal_time" format="color" />
+        <attr name="color_picked_time" format="color" />
+        <attr name="picker_type">
+            <enum name="all" value="0" />
+            <enum name="year_month_day" value="1" />
+            <enum name="hour_min" value="2" />
+            <enum name="month_day_hour_min" value="3" />
+            <enum name="year_month" value="4" />
+        </attr>
+        <attr name="indicator_type">
+            <enum name="divider" value="0" />
+            <enum name="triangle" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="DashedCircularProgress">
+        <attr name="external_color" format="color" />
+        <attr name="base_color" format="color" />
+        <attr name="progress_color" format="color"/>
+        <attr name="max_progress" format="float" />
+        <attr name="min_progress" format="float" />
+        <attr name="progress_icon" format="reference" />
+        <attr name="duration" format="integer" />
+        <attr name="progress_stroke_width" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="ColorProgressBar">
+        <attr name="string_unit" format="string"/>
+        <attr name="current_value" format="integer"/>
+        <attr name="max_value" format="integer"/>
+        <attr name="circular_color" format="color"/>
+        <attr name="cur_progress_color" format="color"/>
+        <attr name="hint_color" format="color"/>
+        <attr name="content_color" format="color"/>
+        <attr name="circle_width" format="dimension"/>
+        <attr name="hint_textsize" format="dimension"/>
+        <attr name="content_textsize" format="dimension"/>
+    </declare-styleable>
+</resources>

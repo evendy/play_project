@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_light_background"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/common_dark_toolbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <LinearLayout
+            android:id="@+id/menu_check_newest"
+            style="@style/menu_item_line">
+
+            <TextView
+                style="@style/menu_item_style"
+                android:text="@string/check_newest" />
+
+            <ImageView style="@style/menu_item_arrow_style" />
+        </LinearLayout>
+
+        <View style="@style/horizontal_line" />
+
+        <LinearLayout
+            android:id="@+id/menu_use_help"
+            style="@style/menu_item_line">
+
+            <TextView
+                style="@style/menu_item_style"
+                android:text="@string/use_help" />
+
+            <ImageView style="@style/menu_item_arrow_style" />
+        </LinearLayout>
+
+        <View style="@style/horizontal_line" />
+
+        <LinearLayout
+            android:id="@+id/menu_suggestion"
+            style="@style/menu_item_line">
+
+            <TextView
+                style="@style/menu_item_style"
+                android:text="@string/suggestion" />
+
+            <ImageView style="@style/menu_item_arrow_style" />
+        </LinearLayout>
+
+        <View style="@style/horizontal_line" />
+
+        <LinearLayout
+            android:id="@+id/menu_about"
+            style="@style/menu_item_line">
+
+            <TextView
+                style="@style/menu_item_style"
+                android:text="@string/about" />
+
+            <ImageView style="@style/menu_item_arrow_style" />
+        </LinearLayout>
+
+        <View style="@style/horizontal_line" />
+    </LinearLayout>
+
+
+</LinearLayout>
